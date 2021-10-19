@@ -68,6 +68,209 @@ aset = {10,10,20,20,20,20,30}
 
 
 
+methods & functions
+-------------------
+
+
+methods:
+---------
+methods are object specific.
+Every object has its own methods.
+methods are accessed with . symbol.
+
+
+
+functions    (   dir(__builtins__) )
+---------
+builtin functions
+user defined functions
+
+
+
+functions are common for all the objects.
+--------------------------------------
+print()
+len()
+range()
+help()
+type()
+isinstance()
+input()       ( In python2.x  raw_input()   )
+max()
+min()
+sum()
+
+
+
+
+list()
+tuple()
+str()
+int()
+float()
+oct()
+hex()
+set()
+dict()
+
+
+operators
+------------
+
+
+arithmetic opreators
+---------------------
++ - * % /
+
+logical operators
+--------------------
+and
+or
+not
+
+name = "python"
+if name.isupper()  and len(name) == 10 :
+    # your logic
+
+if name.islower() or len(name) == 6 :
+    # your logic
+
+relational operators
+--------------------
+< <= > >= == !=
+
+val = 10
+if val < 10  :
+
+
+assignment operators ( ++ and -- are NOT allowed in python )
+---------------------
+=  += -= 
+
+val = 10
+val = val + 1   (or) val+=1
+val = val - 1   (or) val-=1
+val = val * 1   (or) val*=1
+
+
+special operators
+--------------------
+
++
+*
+
+
+boolean
+True    1
+False   0
+
+
+
+
+
+
+
+
+
+
+file handling
+-------------
+
+- flat files  ( .csv txt conf log prop ... )
+- third party files ( xlsx pdf mp4 ... )
+
+
+reading the file
+--------------
+
+
+syntax:    object = open(filename,mode)
+exampe :    fr  = open("customers.txt","r")
+            fw  = open("customers.txt","w")
+            fa  = open("customers.txt","a") 
+
+
+closing the file
+------------------
+fr.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
